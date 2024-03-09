@@ -14,7 +14,7 @@
 - Via interface gráfica: Executar o arquivo `frontend.py`
 
 ## Bibliotecas necessárias
-- `requests`
-- `PIL`
-- `tqdm`
-- `os`
+- `requests`: faz o download da imagem
+- `PIL`: manipula as imagens e aplica filtros
+- `tqdm`: atualiza a barra de progresso de download via terminal
+- `os`: manipula o diretório de imagens
