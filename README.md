@@ -1,3 +1,20 @@
-# Trabalho final da disciplina de Laboratório de Programação
-- Trabalho em grupo realizado no fim do período 2023.2
-- O programa oferece ao usuário a opção de carregar uma **imagem local** ou **inserir o link** de uma imagem, a qual será baixada automaticamente utilizando a **biblioteca requests**.
+# Aplicativo de Filtro de Imagens
+
+## Introdução
+- Este aplicativo em Python foi desenvolvido em um trabalho em grupo realizado no final do período 2023.2.
+- O usuário carrega uma imagem (local ou disponibiliza o link público dela) e poderá aplicar um filtro nela, que será salva com um nome descritivo.
+
+## Recursos
+- Informar o Caminho da Imagem: Permite carregar uma imagem informando o caminho local do arquivo ou uma URL da imagem.
+- Escolher um Filtro: Após carregar a imagem, você pode escolher entre diferentes filtros para aplicar à imagem, como Escala de Cinza, Preto e Branco, Cartoon, Foto Negativa, Contorno e Blurred.
+- Listar Arquivos de Imagem: Lista os arquivos de imagem disponíveis no diretório corrente.
+
+## Uso
+- Via terminal: Executar o arquivo `backend.py`
+- Via interface gráfica: Executar o arquivo `frontend.py`
+
+## Bibliotecas necessárias
+- `requests`
+- `PIL`
+- `tqdm`
+- `os`
